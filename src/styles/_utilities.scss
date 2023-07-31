@@ -1,0 +1,21 @@
+.divider {
+  height: 1px;
+  background: #dadada;
+  &--md {
+    height: 2px;
+  }
+  &--lg {
+    height: 3px;
+  }
+  &--xl {
+    height: 4px;
+  }
+}
+
+.border-solid {
+  border: 1px solid #c8c8c8;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

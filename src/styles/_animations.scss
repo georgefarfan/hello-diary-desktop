@@ -1,0 +1,50 @@
+@mixin mng-vendor-prefix($declarations, $prefixes: ()) {
+  @each $property, $value in $declarations {
+    @each $prefix in $prefixes {
+      #{'-' + $prefix + '-' + $property}: $value;
+    }
+    #{$property}: $value;
+  }
+}
+
+@keyframes a-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes a-fade-out {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes a-fade-out {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.a-fade-out {
+  -webkit-animation: a-fade-out 0.2s ease-out forwards;
+  animation: a-fade-out 0.2s ease-out forwards;
+}
+.a-fade-in {
+  @include mng-vendor-prefix(
+    (
+      animation: a-fade-in 200ms ease-in,
+    ),
+    webkit moz ms o
+  );
+}

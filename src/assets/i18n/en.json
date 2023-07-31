@@ -1,0 +1,81 @@
+{
+    
+      "WELCOME":{
+        "TITLE":  "Welcome to [ HELLO DIARY ]",
+        "MESSAGE": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar deimprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar deimprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar deimprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar deimprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar deimprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar deimprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de"
+      },
+      "COMMON": {
+        "add": "Add",
+        "remove": "Remove",
+        "edit": "Edit",
+        "cancel": "Cancel",
+        "close": "Close",
+        "accept": "Accept",
+        "BACK": "Back",
+        "EDIT": "Edit",
+        "PREVIEW": "View",
+        "REMOVE": "Remove"
+      },
+      "LAYOUT": {
+        "SECTIONS": {
+          "DASHBOARD": {
+            "TITLE": "Dashboard"
+          },
+          "PHASES": {
+            "TITLE": "Phrase"
+          },
+          "COLLECTIONS": {
+            "TITLE": "Collections"
+          }
+        }
+      },
+
+      "COLLECTIONS": {
+        "TITLE": "Collections"
+      },
+
+      "PHRASES": {
+        "EDIT": {
+          "TITLE": {
+            "LABEL": "Phrase",
+            "REQUIRED":"The phrase is required."
+          },
+          "DESCRIPTION": {
+            "LABEL": "Description",
+            "REQUIRED":"The description is required"
+          }
+        }
+      },  
+      
+      "DASHBOARD": {
+        "phases": {
+          "list": {
+            "title": "My phase list",
+            "empty": {
+              "title": "You don't load phrases",
+              "message": "Click here to add phase"
+            }
+          },
+          "SELECTED": {
+            "TITLE": "Phrase selected",
+            "MESSAGE": "Select any phrase"
+          },
+          "add": {
+            "label": "Add phase",
+            "form": {
+              "title": "Phase",
+              "description": "Phase description"
+            }
+          },
+          "remove": {}
+        },
+        "groups": {
+
+        }
+      },
+      "PHASES": {
+        "MANAGE": {
+          
+        }
+      }
+    }
